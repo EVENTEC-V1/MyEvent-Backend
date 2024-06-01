@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "46ebe483-a986-425f-86fc-5b02e16ef146",
+		"name": "MyEvent",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34481439"
+	},
+	"item": [
+		{
+			"name": "get-events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/events",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create-user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Duki\",\r\n    \"surname\": \"Gato\",\r\n    \"address\": \"Arg\",\r\n    \"phone\": 123456789,\r\n    \"correo\": \"duko@mail.com\",\r\n    \"password\": \"123\",\r\n    \"newsApiKey\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/users/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create-user Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Duki\",\r\n    \"surname\": \"Gato\",\r\n    \"address\": \"Arg\",\r\n    \"phone\": 123456789,\r\n    \"correo\": \"duko@mail.com\",\r\n    \"password\": \"123\",\r\n    \"newsApiKey\": \"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/users/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
